@@ -3,19 +3,19 @@ from __future__ import unicode_literals
 import os
 
 AUTHOR = u'Flavio Percoco'
-SITENAME = u'Developer\'s black hole'
-SITEURL = os.environ.get('SITEURL', 'https://blog.flaper87.com')
+SITENAME = u'De 5 a 10 minutos'
+SITEURL = os.environ.get('SITEURL', 'https://vlog.flaper87.com')
 #GOOGLE_ANALYTICS = 'UA-54541847-1'
 
 PATH = 'content'
 THEME = './theme/flaper87'
 
-STATIC_PATHS = ['images']
+STATIC_PATHS = ['img']
 EXTRA_PATH_METADATA = {}
 
 TIMEZONE = 'Europe/Rome'
 
-DEFAULT_LANG = u'en'
+DEFAULT_LANG = u'es'
 
 MARKDOWN = {
     'output_format': 'html5',
@@ -27,8 +27,17 @@ TAG_FEED_ATOM = 'feeds/%s.atom.xml'
 TRANSLATION_FEED_ATOM = None
 
 # Social widget
-SOCIAL = (('twitter', 'http://twitter.com/flaper87'),)
+SOCIAL = (('twitter', 'http://twitter.com/flaper87'),
+          ('github', 'https://github.com/test'),)
 TWITTER_USERNAME = "flaper87"
+
+CC_LICENSE = {
+    'name': 'Creative Commons Attribution-ShareAlike',
+    'version': '4.0',
+    'slug': 'by-sa'
+}
+
+COPYRIGHT_YEAR = 2017
 
 DEFAULT_PAGINATION = 5
 TYPOGRIFY = False
