@@ -10,7 +10,7 @@ SITEURL = os.environ.get('SITEURL', 'https://vlog.flaper87.com')
 PATH = 'content'
 THEME = './theme/flaper87'
 
-STATIC_PATHS = ['img']
+STATIC_PATHS = ['images']
 EXTRA_PATH_METADATA = {}
 
 TIMEZONE = 'Europe/Rome'
